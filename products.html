@@ -1,0 +1,155 @@
+﻿<!--
+  A. Cervantes, T. Clark, D. Lenselink, C. Mathiason, K. Smeaton
+  CWEB 2101 - Prof. Merns
+  2017-04-19
+-->
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Hypno Geeks || Products Page</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">    
+    <meta name="description" content="Hypno Geeks Product Page">
+    <meta name="keywords" content="Hypno, Geeks, product, page">
+    <meta name="author" content="Daniel Lenselink">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+   <!-----------------
+    begin CSS ASSETS
+   ------------------>
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/sweetalert2.css">
+    <link rel="stylesheet" href="css/products.css">
+   <!-----------------
+    end CSS ASSETS
+   ------------------>
+  </head>
+  
+  <body>
+    <img src="img/background_3.jpg" alt="background" id="background_img">
+      <div class="collapse bg-inverse" id="navbarHeader">
+        <div class="container">
+          <div class="row">
+            <div class="col-sm-8 py-4">
+              <h4 class="text-blue">About Us</h4>
+              <p class="text-muted">Hypno Geeks is your premier online retailer of PC parts and peripherals! When it comes to committment to the customer, no one tops Hypno Geeks. We specialize in CPUs, GPUs, motherboards, HDDs, and SSDs. We proudly ship to all 50 states!</p>
+            </div>
+            <div class="col-sm-4 py-4">
+              <h4 class="text-blue">Navigation</h4>
+              <ul class="list-unstyled">
+                <li><a href="login.html" class="text-muted">LOGIN</a></li>
+                <li><a href="faq.html" class="text-muted">FAQ</a></li>
+                <li><a href="#" class="text-white">PRODUCTS</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="navbar navbar-inverse bg-inverse">
+        <div class="container d-flex justify-content-between">
+          <a href="#" class="navbar-brand">
+            <img class="img-fluid" src="img/logo_mini.png" alt="hypnogeeks logo" style="max-height: 100%; max-width: 100%;">
+          </a>
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarHeader" aria-controls="navbarHeader" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+        </div>
+      </div>
+    
+    <div class="row">
+      <div class="col-8 offset-2" style="margin-top: 3em;">
+        <section class="jumbotron text-center">
+          <div class="container">
+            <h1 class="jumbotron-heading">Products</h1>
+            <br>
+            <hr class="hr_style">
+            <br>
+            <p class="lead text-muted">Hypnogeeks has something for everyone; from the most powerful graphics card to the most affordable hard drive, Hypnogeeks can meet your needs no matter how tall or short the order.</p>
+          </div>
+        </section>
+      </div>    
+    </div>
+    
+    <div class="row">
+      <div class="container" id="content_container">
+        <div class="row">
+          <div class="bd-example bd-example-tabs col-12" role="tabpanel" style="margin: 4em auto 4em auto; display: block; height: auto;">
+            <ul class="nav nav-tabs nav-fill" id="myTab" role="tablist">
+            
+              <li class="nav-item">
+                <a class="content_nav nav-link active" id="CPU-tab" data-toggle="tab" href="#CPU" role="tab" aria-controls="CPU" aria-expanded="true">CPUs</a>
+              </li>
+              
+              <li class="nav-item">
+                <a class="content_nav nav-link" id="GPU-tab" data-toggle="tab" href="#GPU" role="tab" aria-controls="GPU">GPUs</a>
+              </li>
+
+              <li class="nav-item">
+                <a class="content_nav nav-link" id="MOBO-tab" data-toggle="tab" href="#MOBO" role="tab" aria-controls="MOBO">Motherboards</a>
+              </li>
+              
+              <li class="nav-item">
+                <a class="content_nav nav-link" id="HDD-tab" data-toggle="tab" href="#HDD" role="tab" aria-controls="HDD">Hard Drives</a>
+              </li>
+              
+              <li class="nav-item">
+                <a class="content_nav nav-link" id="SSD-tab" data-toggle="tab" href="#SSD" role="tab" aria-controls="SSD">Solid State Drives</a>
+              </li>
+              
+            </ul>
+            
+            <div class="tab-content tabpanel_content" id="myTabContent" style="text-align: center;">
+            
+              <div role="tabpanel" class="tab-pane fade show active" id="CPU" aria-labelledby="CPU-tab">
+                <table class="table table-sm table-inverse">
+                  <thead>
+                    <tr class="background-purple">
+                      <th>NAME</th>
+                      <th style="text-align:center;">PRICE</th>
+                      <th style="text-align:center;">RATING</th>
+                      <th style="text-align:center;">STOCK</th>
+                    </tr>
+                  </thead>
+                  <tbody id="CPU-content">
+                    <!-- insert content here -->
+                  </tbody>
+                </table>
+              </div>
+              
+              <div class="tab-pane fade" id="GPU" role="tabpanel" aria-labelledby="GPU-tab">
+                
+              </div>
+              
+              <div class="tab-pane fade" id="MOBO" role="tabpanel" aria-labelledby="MOBO-tab">
+                
+              </div>
+              
+              <div class="tab-pane fade" id="HDD" role="tabpanel" aria-labelledby="HDD-tab">
+               
+              </div>
+              
+              <div class="tab-pane fade" id="SSD" role="tabpanel" aria-labelledby="SSD-tab">
+               
+              </div>
+              
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    
+    <div class="footer fixed-bottom">
+      <div class="container">
+        <span class="text-muted">&#169; 2017 Hypnogeeks LLC  &#167;  Website by D. Lenselink</span>
+      </div>
+    </div> 
+   <!-----------------
+    begin JS ASSETS
+   ------------------>
+    <script src="js/jquery-3.2.1.js"></script>  
+    <script src="js/bootstrap.js"></script>   
+    <script src="js/products_data.js"></script>
+    <script src="js/products.js"></script>
+   <!-----------------
+    end JS ASSETS
+   ------------------>
+  </body>
+</html>

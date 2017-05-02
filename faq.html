@@ -1,0 +1,101 @@
+<!--
+  A. Cervantes, T. Clark, D. Lenselink, C. Mathiason, K. Smeaton
+  CWEB 2101 - Prof. Merns
+  2017-04-19
+-->
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Hypno Geeks || FAQ Page</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">    
+    <meta name="description" content="Hypno Geeks Login Page">
+    <meta name="keywords" content="Hypno, Geeks, login, page">
+    <meta name="author" content="Daniel Lenselink">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+   <!-----------------
+    begin CSS ASSETS
+   ------------------>
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/sweetalert2.css">
+    <link rel="stylesheet" href="css/faq.css">
+   <!-----------------
+    end CSS ASSETS
+   ------------------>
+  </head>
+  
+  <body>
+    <img src="img/background_2.jpg" alt="background" id="background_img">
+  
+    <div class="collapse bg-inverse" id="navbarHeader">
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-8 py-4">
+            <h4 class="text-blue">About Us</h4>
+            <p class="text-muted">Hypno Geeks is your premier online retailer of PC parts and peripherals! When it comes to committment to the customer, no one tops Hypno Geeks. We specialize in CPUs, GPUs, motherboards, HDDs, and SSDs. We proudly ship to all 50 states!</p>
+          </div>
+          <div class="col-sm-4 py-4">
+            <h4 class="text-blue">Navigation</h4>
+            <ul class="list-unstyled">
+              <li><a href="login.html" class="text-muted">LOGIN</a></li>
+              <li><a href="faq.html" class="text-white">FAQ</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+    
+    <div class="navbar navbar-inverse bg-inverse">
+      <div class="container d-flex justify-content-between">
+        <a href="#" class="navbar-brand">
+          <img class="img-fluid" src="img/logo_mini.png" alt="hypnogeeks logo" style="max-height: 100%; max-width: 100%;">
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarHeader" aria-controls="navbarHeader" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+      </div>
+    </div>
+    
+    <div class="row">
+      <div class="col-8 offset-2" style="margin-top: 3em;">
+        <section class="jumbotron text-center">
+          <div class="container">
+            <h1 class="jumbotron-heading">Frequently Asked Questions</h1>
+            <br>
+            <hr class="hr_style">
+            <br>
+            <p class="lead text-muted">A closer look at how HypnoGeeks works!</p>
+          </div>
+        </section>
+      </div>    
+    </div>
+    
+    <div class="row">
+      <div class="col-8 offset-2">
+        <div class="row">
+          <div class="col-6" id="faq_left">
+            <!-- dynamically generated questions here-->
+          </div>
+          <div class="col-6" id="faq_right">
+            <!-- dynamically generated answers here-->
+          </div>
+        </div>
+      </div>
+    </div>
+    
+    <div class="footer bottom">
+      <div class="container">
+        <span class="text-muted">&#169; 2017 Hypnogeeks LLC  &#167;  Website by D. Lenselink</span>
+      </div>
+    </div>
+   <!-----------------
+    begin JS ASSETS
+   ------------------>
+    <script src="js/jquery-3.2.1.js"></script>  
+    <script src="js/bootstrap.js"></script>  
+    <script src="js/faq_data.js"></script>
+    <script src="js/faq.js"></script>
+    <!-----------------
+    end JS ASSETS
+   ------------------>
+  </body>
+</html>

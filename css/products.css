@@ -1,0 +1,90 @@
+/*
+  A. Cervantes, T. Clark, D. Lenselink, C. Mathiason, K. Smeaton
+  CWEB 2101 - Prof. Merns
+  2017-04-25
+*/
+
+/*--- by ID ---*/
+
+#background_img {
+	min-height: 100%;
+	min-width: 1em;
+	width: 100%;
+	height: auto;
+	position: fixed;
+	top: 0;
+	left: 0;
+	z-index: -1;
+}
+
+#content_container{
+  height: auto;
+}
+
+/*--- by CLASS ---*/
+
+.background-blue{
+  background-color: #13b4d6;
+}
+
+.background-purple{
+  background-color: #912680;
+}
+
+.content_nav{
+  color: black;
+}
+
+.content_nav:hover{
+  color: black;
+}
+
+.footer{
+  height: 4em;
+  text-align: center;
+  background-color: #292B2C;
+  padding: 1em;
+  word-spacing: .2em;
+}
+
+.hr_style {
+	border-top: 1px solid #8c8b8b;
+	text-align: center;
+}
+
+.hr_style:after {
+	content: '§';
+	display: inline-block;
+	position: relative;
+	top: -14px;
+	padding: 0 10px;
+	background: #f0f0f0;
+	color: #8c8b8b;
+	font-size: 18px;
+	-webkit-transform: rotate(60deg);
+	-moz-transform: rotate(60deg);
+	transform: rotate(60deg);
+}
+
+.navbar-toggler{
+  margin-top: .4em;
+}
+
+.tabpanel_content{
+  height: 32em;
+  background: rgba(0,0,0,0.7);
+  margin-bottom: 8em;
+  padding: 4em;
+}
+
+.text-blue{
+  color: #13b4d6;
+}
+
+.text-purple{
+  color: #912680;
+}
+
+.text-offwhite{
+  color: #ECEEEF;
+}
