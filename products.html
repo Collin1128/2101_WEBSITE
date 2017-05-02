@@ -55,7 +55,7 @@
       </div>
     
     <div class="row">
-      <div class="col-8 offset-2" style="margin-top: 3em;">
+      <div class="col-8 offset-2" style="margin: 6em auto 3em auto;">
         <section class="jumbotron text-center">
           <div class="container">
             <h1 class="jumbotron-heading">Products</h1>
@@ -71,15 +71,15 @@
     <div class="row">
       <div class="container" id="content_container">
         <div class="row">
-          <div class="bd-example bd-example-tabs col-12" role="tabpanel" style="margin: 4em auto 4em auto; display: block; height: auto;">
+          <div class="bd-example bd-example-tabs col-12" role="tabpanel" style="margin: 4em auto 4em auto; display: block;">
             <ul class="nav nav-tabs nav-fill" id="myTab" role="tablist">
             
               <li class="nav-item">
-                <a class="content_nav nav-link active" id="CPU-tab" data-toggle="tab" href="#CPU" role="tab" aria-controls="CPU" aria-expanded="true">CPUs</a>
+                <a class="content_nav nav-link active" id="CPU-tab" data-toggle="tab" href="#CPU" role="tab" aria-controls="CPU" aria-expanded="true">Processors</a>
               </li>
               
               <li class="nav-item">
-                <a class="content_nav nav-link" id="GPU-tab" data-toggle="tab" href="#GPU" role="tab" aria-controls="GPU">GPUs</a>
+                <a class="content_nav nav-link" id="GPU-tab" data-toggle="tab" href="#GPU" role="tab" aria-controls="GPU">Graphics Cards</a>
               </li>
 
               <li class="nav-item">
@@ -96,10 +96,10 @@
               
             </ul>
             
-            <div class="tab-content tabpanel_content" id="myTabContent" style="text-align: center;">
+            <div class="tab-content tabpanel_content" id="myTabContent" style="text-align: center; height: auto;">
             
               <div role="tabpanel" class="tab-pane fade show active" id="CPU" aria-labelledby="CPU-tab">
-                <table class="table table-sm table-inverse">
+                <table class="table table-inverse">
                   <thead>
                     <tr class="background-purple">
                       <th>NAME</th>
@@ -109,25 +109,73 @@
                     </tr>
                   </thead>
                   <tbody id="CPU-content">
-                    <!-- insert content here -->
+                    <!-- dynamically inserted content here -->
                   </tbody>
                 </table>
               </div>
               
               <div class="tab-pane fade" id="GPU" role="tabpanel" aria-labelledby="GPU-tab">
-                
+                <table class="table table-inverse">
+                  <thead>
+                    <tr class="background-purple">
+                      <th>NAME</th>
+                      <th style="text-align:center;">PRICE</th>
+                      <th style="text-align:center;">RATING</th>
+                      <th style="text-align:center;">STOCK</th>
+                    </tr>
+                  </thead>
+                  <tbody id="GPU-content">
+                    <!-- dynamically inserted content here -->
+                  </tbody>
+                </table>
               </div>
               
               <div class="tab-pane fade" id="MOBO" role="tabpanel" aria-labelledby="MOBO-tab">
-                
+                <table class="table table-inverse">
+                  <thead>
+                    <tr class="background-purple">
+                      <th>NAME</th>
+                      <th style="text-align:center;">PRICE</th>
+                      <th style="text-align:center;">RATING</th>
+                      <th style="text-align:center;">STOCK</th>
+                    </tr>
+                  </thead>
+                  <tbody id="MOBO-content">
+                    <!-- dynamically inserted content here -->
+                  </tbody>
+                </table>
               </div>
               
               <div class="tab-pane fade" id="HDD" role="tabpanel" aria-labelledby="HDD-tab">
-               
+                <table class="table table-inverse">
+                  <thead>
+                    <tr class="background-purple">
+                      <th>NAME</th>
+                      <th style="text-align:center;">PRICE</th>
+                      <th style="text-align:center;">RATING</th>
+                      <th style="text-align:center;">STOCK</th>
+                    </tr>
+                  </thead>
+                  <tbody id="HDD-content">
+                    <!-- dynamically inserted content here -->
+                  </tbody>
+                </table>
               </div>
               
               <div class="tab-pane fade" id="SSD" role="tabpanel" aria-labelledby="SSD-tab">
-               
+                <table class="table table-inverse">
+                  <thead>
+                    <tr class="background-purple">
+                      <th>NAME</th>
+                      <th style="text-align:center;">PRICE</th>
+                      <th style="text-align:center;">RATING</th>
+                      <th style="text-align:center;">STOCK</th>
+                    </tr>
+                  </thead>
+                  <tbody id="SSD-content">
+                    <!-- dynamically inserted content here -->
+                  </tbody>
+                </table>
               </div>
               
             </div>
@@ -136,7 +184,7 @@
       </div>
     </div>
     
-    <div class="footer fixed-bottom">
+    <div class="footer">
       <div class="container">
         <span class="text-muted">&#169; 2017 Hypnogeeks LLC  &#167;  Website by D. Lenselink</span>
       </div>
