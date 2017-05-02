@@ -1,2 +1,2 @@
-# CWEB2101-Final
+# CWEB2101
 Business Architecture - Final Project - HYPNOGEEKS Website
